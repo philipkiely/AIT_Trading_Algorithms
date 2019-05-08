@@ -6,6 +6,8 @@ For our project, we each created an Alpha Factor from data available on Quantopi
 
 ## Alpha Factors
 
+An Alpha Factor is the engine in a long-short trading algorithm. These factors rank stocks in the QTradableStocksUS universe so that we can long the top picks and short the bottom ones.
+
 - Simple Moving Average Crossover
 
   - The negative absolute value of the 10-day moving average premium over previous closing price.
@@ -28,6 +30,6 @@ For our project, we each created an Alpha Factor from data available on Quantopi
 
 All alpha factors were evaluated using [Alphalens](https://www.quantopian.com/posts/alphalens-a-new-tool-for-analyzing-alpha-factors) and built in the [Quantopian research environment](https://www.quantopian.com/research).
 
-### Algorithms
+## Algorithms
 
-TODO
+These algorithms put our pipelines into the standard architecture of a Quantopian trading algorithm to let us backtest the returns in the training and test period.
