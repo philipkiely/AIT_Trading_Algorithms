@@ -23,7 +23,7 @@ def initialize(context):
     #constraints
     context.max_leverage = 1.0
     context.max_pos_size = 0.015
-    context.max_turnover = 0.95
+    context.max_turnover = 0.65
     
     # Rebalance every day, 1 hour after market open.
     algo.schedule_function(
